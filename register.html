@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+	
+    <title>Logged In - Welcome</title>
+  </head>
+  <body>
+    <div class="container-fluid bg">
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-12"></div>
+				<div class="col-md-4 col-sm-4 col-xs-12">
+				
+					<form class="form-container" method="post" id="register-form">
+						 <div id="error">
+								<!-- error will be showen here ! -->
+						</div>
+							<div class = "form-group">
+								<label for="InputName">Name</label>
+								<input type="text" class = "form-control" name="name" placeholder="Name">
+							</div>
+							<div class = "form-group">
+								<label for="InputEmail">Email address</label>
+								<input type="text" class = "form-control" name="email" placeholder="something@xyz.com">
+								<span id="check-e"></span>
+							</div>
+							<div class = "form-group">
+								<label for="InputCollege">College</label>
+								<input type="text" class = "form-control" name="college" placeholder="College">
+							</div>
+							<div class = "form-group">
+								<label for="InputPassword">Password</label>
+								<input type="password" class = "form-control" name="password" placeholder="Password" id ="password">
+							</div>
+								<div class = "form-group">
+								<label for="ConfirmPassword">Confirm Password</label>
+								<input type="password" class = "form-control" name="cpassword" placeholder="Retype the password" id="cpassword">
+							</div>
+							<div class = "form-group">
+								<label for="InputDegree">Degree</label>
+								<input type="text" class = "form-control" name="degree" placeholder="Degree">
+							</div>
+							<div class = "form-group">
+								<label for="InputGender">Gender</label>
+								<input type="radio"  name="gender" value="male" checked> Male  
+								<input type="radio"  name="gender" value="female"> Female  
+								<input type="radio"  name="gender" value="other"> Other
+							</div>
+							<div class = "form-group">
+								<label for="InputRollNo">Roll No.</label>
+								<input type="text" class="form-control" name="rollno" placeholder="College RollNo.">
+							</div>
+								<div class="form-group">
+											<button class="btn btn-success btn-block" id="btn-submit">Register</button>
+											<h6>Already registered?</h6>
+											<a href="login.html" class="btn btn-danger btn-block">Login</a>											
+										</div>  
+										</form>
+				
+					
+				</div>
+		</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+	
+	<script type="text/javascript" src="register.js"></script>
+	
+	</div>	
+	
+    </body>
+</html>

@@ -1,0 +1,6 @@
+.bg{background: url('../images/bgimage.jpg') repeat; width: 100vw; height: 100vh;}
+.form-container{ padding:30px 40px; margin-top:2vh;
+
+-webkit-box-shadow: -1px 5px 29px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 5px 29px 8px rgba(0,0,0,0.75);
+box-shadow: -1px 5px 29px 8px rgba(0,0,0,0.75);}
